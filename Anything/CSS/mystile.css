@@ -1,0 +1,67 @@
+body{
+	background-image: url(587f4e8b69d80159b14ad0aa.jpg);
+}
+
+a{
+	color: red;
+	font-size: 20px; /*sizze*/
+}
+
+div{
+	color: #35AEC9;
+}
+
+#my_link{          
+	color: green; /*identify selector*/
+}
+
+#test{
+	color: #D2CB2CFF;
+	font-size: 29px;
+}
+
+.human{
+	color: #D22C47FF; /*class selector*/
+}
+
+.animal{
+	display: block;
+	color: #500CF2FF;
+	background-color: yellow;
+	border: 1px solid #323232;
+	font-size: 20px; 
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 15px;
+}
+
+.lion{
+	color: #000000;
+	background-color: grey;
+}
+
+.message:hover{
+	border: 10px solid #323232; /*action selector*/
+}
+
+.you{
+	transform: rotate(0deg) scale(0.9);
+	transition: 0.5s all;
+
+	display: block;
+	font-size: 50px;
+	background-color: #4910EEFF;
+	color: #FFAD00FF;
+	padding: 15px;
+	margin: 15px;
+	border: 10px solid #9400FFFF;
+	border-radius: 100px;
+	opacity: 0.9;
+	box-shadow: 15px 15px 30px #3261CCFF;
+	width: 17% /*pixels*/
+}
+
+.you:hover{
+	transform: rotate(45deg) scale(0.3)
+}
